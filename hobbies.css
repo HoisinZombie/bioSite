@@ -1,0 +1,82 @@
+body {
+    background-color:#40B9DB;
+}
+
+#navbar {
+    overflow: hidden;
+    margin-right: 380px;
+    margin-left: 200px;
+    position: relative;
+    top: 115px;
+}
+
+header {
+    position: absolute;
+    background-color: #dbcf40;
+    width: 100%;
+    padding-left: 50px;
+    left: 0;
+    top: 0;
+}
+
+.column {
+    float: right;
+    width: 11%;
+    padding: 35px;
+}
+
+#container {
+    display: flex;
+}
+
+.card {
+    font-size: 1.8em;
+    background-color: #dbcf40;
+    border: solid 5px;
+    border-color: #db4070;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    margin-top: 100px;
+    margin-left: 290px;
+    margin-right: 370px;
+    margin-bottom: 330px;
+
+}
+
+.hobby1 {
+    position: relative;
+    left: 180px;
+}
+
+.hobby2 {
+    position: relative;
+    left: 300px;
+    bottom: 40px;
+}
+
+.hobby3 {
+    position: relative;
+    bottom: 315px;
+    left: 70px;
+}
+
+footer {
+    background-color: #dbcf40;
+    border-top: solid;
+    border-width: 5px;
+    border-color: #db4070;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+footer p {
+    float: right;
+    margin-right: 50px;
+}
+
+footer a {
+    color: #db4070;
+}
